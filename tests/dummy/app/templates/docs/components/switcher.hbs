@@ -1,7 +1,7 @@
 <h2>Switcher</h2>
 
 <div class="uk-padding uk-box-shadow-medium uk-margin">
-  <UkSwitcher @animation={{animation}} @animationDuration={{animationDuration}} @swiping={{swiping}} as |switcher|>
+  <UkSwitcher @active={{active}} @animation={{animation}} @animationDuration={{animationDuration}} @swiping={{swiping}} as |switcher|>
     <switcher.nav @type={{type}} as |nav|>
       <nav.component as |tab|>
         <tab.item>Item 1</tab.item>
@@ -68,6 +68,19 @@
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td><code>active</code></td>
+              <td><code>Number</code></td>
+              <td><code>0</code></td>
+              <td>Active index on init. Providing a negative number indicates a position starting from the end of the set.</td>
+              <td>
+                <small class="uk-text-muted">
+                  Sadly we can't show this live since we"d need to
+                  reinitialize the component on every change. Currently we
+                  use <b>{{active}}</b>.
+                </small>
+              </td>
+            </tr>
             <tr>
               <td><code>animation</code></td>
               <td><code>String</code></td>

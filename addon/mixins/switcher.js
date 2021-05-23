@@ -6,12 +6,14 @@ export default Mixin.create({
   attributeBindings: [
     "ukSwitcher:uk-switcher",
     "connect",
+    "active",
     "animation",
     "animationDuration:duration",
     "swiping",
   ],
 
   contentId: "",
+  active: 0,
   animation: "",
   animationDuration: 200,
   swiping: false,
