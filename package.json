@@ -48,7 +48,7 @@
     "ember-auto-import": "^1.11.3",
     "ember-cli-babel": "^7.26.5",
     "ember-cli-htmlbars": "^5.3.2",
-    "ember-focus-trap": "^0.5.0",
+    "ember-focus-trap": "^0.7.0",
     "ember-get-config": "^0.3.0",
     "ember-in-element-polyfill": "^1.0.1",
     "ember-toggle": "^7.1.1",
